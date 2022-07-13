@@ -18,6 +18,12 @@ body{
     color: #e5e7eb;
     margin-left: auto;
     font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+.header-links li{
+    display: flex;
 }
 
 .header-links ul{
@@ -49,15 +55,18 @@ h1{
     width: 350px;
     color: #f9faf8;
 }
-p{
+.blurb-left p{
     color: #e5e7eb;
     font-size: 18px;
     width: 450px;
 }
 
 .blurb-pic{
-    width:800px;
-    height: 400px;
+    max-width:800px;
+    max-height: 400px;
+}
+.blurb-pic{
+    max-width: 100%;
 }
 
 button{
@@ -68,3 +77,85 @@ button{
     border-radius: 10px;
     border-style: none;
 }
+
+.random-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20%;
+}
+
+.random-images{
+    display: flex;
+    gap: 60px;
+}
+
+.random-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-image img{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+.inspiring-quote{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 25%;
+    background-color: #e5e7eb;
+}
+
+.inspiring-quote p{
+    font-size: 36px;
+}
+.quote{
+    text-align: center;
+}
+
+.attribution{
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.content-border{
+    border:5px solid #3882f6;
+    border-radius: 12px;
+    display: flex;
+    flex: 1;
+    margin: 0 20%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 100px;
+    background-color: #3882f6;
+}
+
+.content-border p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.call-to-action-button button{
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+}
+
+.footer{
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #1f2937;
+    padding: 18px;
+    text-align: center;
+}
+
